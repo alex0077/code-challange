@@ -1,0 +1,27 @@
+{
+  "name": "code-challange",
+  "version": "1.0.0",
+  "description": "Node.js code challange",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "c8 mocha tests/**/*.js"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex0077/code-challange.git"
+  },
+  "author": "Alexandre Azevedo",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "c8": "^7.11.0",
+    "mocha": "^9.2.1",
+    "node-modules": "^0.0.1",
+    "nyc": "^15.1.0"
+  }
+}
